@@ -67,8 +67,8 @@ This portfolio is built with modern web technologies:
 
 Feel free to reach out to me through:
 
-- LinkedIn: [[Your LinkedIn]](https://www.linkedin.com/in/ricardo-olarte/)
-- GitHub: [[Your GitHub]](https://github.com/raop155)
+- LinkedIn: https://www.linkedin.com/in/ricardo-olarte/
+- GitHub: https://github.com/raop155
 
 ## 📄 License
 
