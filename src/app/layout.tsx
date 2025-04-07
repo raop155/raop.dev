@@ -15,7 +15,42 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ricardo Olarte | Software Engineer",
-  description: "Professional Software Engineer Portfolio",
+  description:
+    "Professional Software Engineer specializing in modern web development, blockchain, and innovative solutions. View my portfolio of projects and skills.",
+  metadataBase: new URL("https://raop.dev"),
+  openGraph: {
+    title: "Ricardo Olarte | Software Engineer",
+    description:
+      "Professional Software Engineer specializing in modern web development, blockchain, and innovative solutions. View my portfolio of projects and skills.",
+    url: "https://raop.dev",
+    siteName: "Ricardo Olarte Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Ricardo Olarte - Software Engineer Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ricardo Olarte | Software Engineer",
+    description:
+      "Professional Software Engineer specializing in modern web development, blockchain, and innovative solutions. View my portfolio of projects and skills.",
+    images: ["/og-image.png"],
+    creator: "@raop155",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/public/favicon.ico",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
