@@ -41,10 +41,8 @@ const Hero = () => {
               Full Stack Developer & Software Engineer
             </Badge>
             <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-              <span className="block">Passionate About</span>
-              <span className="gradient-text text-glow animate-gradient">
-                Innovation
-              </span>
+              <span className="block">I build for the web</span>
+              <span className="gradient-text text-glow animate-gradient"></span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto">
               Building transformative solutions with cutting-edge technologies
